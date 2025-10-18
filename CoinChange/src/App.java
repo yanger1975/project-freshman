@@ -24,6 +24,10 @@ public class App {
         int i = 0;
         int result = -1;
 
+        if (coins == null || coins.length == 0) {
+            return -1;
+        }
+        
         if (amount == 0) {
             return 0;
         }
